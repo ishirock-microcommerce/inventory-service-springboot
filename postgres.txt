@@ -1,0 +1,1 @@
+docker run -d --name postgres -p5432:5432 -e POSTGRES_DB=inventory -e POSTGRES_PASSWORD=postgres@123 postgres
